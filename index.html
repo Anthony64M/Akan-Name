@@ -54,7 +54,33 @@
                 <li>Saturday-----Ama</li>
             </ul>
         </div>
-        
+        <div class="container">
+            <div class="jumbotron">
+                <h2>AKAN NAME GENERATOR</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="col-md-4 mt30 akan-form">
+                            <h4>Enter Your:</h4>
+                            <form>
+                                <label class="label">Name</label>
+                                <input type="text" placeholder="Name" id="myName" class="form-control" autocomplete="false">
+                                <label class="label">Birthday</label>
+                                <input type="date" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="false">  
+                                <label class="label">Gender</label> <br>
+                                <input type="radio" name="gender" id="male" value="Male">
+                                <label for="male">Male</label> <br>
+                                <input type="radio" name="gender" value="Female" id="female">
+                                <label for="female">Female</label> <br>
+                                <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs">Check Your Akan Name</button>
+                                <button type="reset" onclick="clearAkanMessage(); return true;" class="btn btn-default btn-xs">Reset</button>		
+                            </form>	
+                        </div>
+                        <div class="your-akan-name">
+                            <p id="message" class="output"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     <script src="/JS/script.js"></script>
 </body>
