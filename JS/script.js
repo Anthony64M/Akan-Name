@@ -7,6 +7,18 @@ var akan = function(y, d, m, g){
     }
     else{
         return d && femaleNames[d.getDay()];
-    }   
+    }
 }
 
+$(document).ready(function() {
+    $("form#form").submit(function(event)  {
+        var y = parseInt($("#year").val());
+        var d = parseInt($("#date").val());
+        var m = parseInt($("#month").val());
+        var g = parseInt($("input:radio[name=gender]:checked").val());
+        var result = akan(y, d, m, g);
+        alert("Your Akan-Name is: " + result);
+
+        document.getElementById("form").requestFullscreen();
+    });
+});
