@@ -1,5 +1,5 @@
 # Hello👋, I’m Anthony
-# AKAN NAgitME
+# AKAN NAME
 ---
 ### Project created by Anthony Mutuku
 ---
