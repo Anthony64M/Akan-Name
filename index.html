@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Satisfy&display=swap" rel="stylesheet">
+        </head>
 <body>
     <div class="container">
         <div class="name">
@@ -21,15 +21,19 @@
         </div>
         <div class="priv">
             <h2>Description</h2>
-            <p>This is a web Application that reveals to you your Akan Name depending on your birthday and your gender. The Akan people of Ghana name their children 
-                after the day of the week they were born and the order in which they were born. These "day names" has a much deeper meaning, 
-                because the day on which a person was born has about the similar significance as in the western hemisphere the assignment to a sign of the zodiac.
-                 Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
-                 Notable figures with this names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>
+            <p>This is a website that generates names in accordance  to the Akan naming system. The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+                This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of enslaved people's rebellions had
+                "day names" including Cuffy, Cuffee or Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.
+                Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.
+                In the official orthography of the Twi language, the Ashanti versions of these names as spoken in Kumasi are as follows. The diacritics on á a̍ à represent high, mid, and low tone (tone does not need to be marked on every vowel), while the diacritic on a̩ is used for vowel harmony and can be ignored.
+                (Diacritics are frequently dropped in any case.) Variants of the names are used in other languages,
+                or may represent different transliteration schemes. The variants mostly consist of different affixes (in Ashanti, kwa- or ko- for men and a- plus -a or -wa for women). For example, among the Fante, the prefixes are kwe-, kwa or ko for men and e-, arespectively. Akan d̩wo or jo(Fante) is pronounced something like English Joe,
+                but there do appear to be two sets of names for those born on Monday.</p>
         </div>
         <div class="num1">
             <h3>The following are names in Ghanaians Culture for diffrent Gender:</h3>
         </div>
+        <div class="fe-male">
         <div class="male">
             <h2>Male</h2>
             <ul>
@@ -54,33 +58,32 @@
                 <li>Saturday-----Ama</li>
             </ul>
         </div>
-        <div class="container">
+        </div>
             <div class="jumbotron">
                 <h2>AKAN NAME GENERATOR</h2>
                 <div class="card">
                     <div class="card-body">
                         <div class="col-md-4 mt30 akan-form">
-                            <h4>Enter Your:</h4>
+                            <h4>Input Details</h4>
                             <form>
                                 <label class="label">Name</label>
                                 <input type="text" placeholder="Name" id="myName" class="form-control" autocomplete="false">
                                 <label class="label">Birthday</label>
-                                <input type="date" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="false">  
+                                <input type="date" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="false">
                                 <label class="label">Gender</label> <br>
                                 <input type="radio" name="gender" id="male" value="Male">
                                 <label for="male">Male</label> <br>
                                 <input type="radio" name="gender" value="Female" id="female">
                                 <label for="female">Female</label> <br>
-                                <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs">Check Your Akan Name</button>
+                                <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs">Submit</button>
                                 <button type="reset" onclick="clearAkanMessage(); return true;" class="btn btn-default btn-xs">Reset</button>		
-                            </form>	
+                            </form>
                         </div>
                         <div class="your-akan-name">
                             <p id="message" class="output"></p>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     <script src="/JS/script.js"></script>
 </body>
