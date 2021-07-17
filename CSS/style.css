@@ -1,25 +1,102 @@
+/* font-family: 'Cherry Swash', cursive;
+font-family: 'Satisfy', cursive; */
 body{
-    background-image: url(/IMG/back.jpg);
+    background-image: url(/IMG/kitenge.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     display: block;
     position: relative;
-    /* font-family: 'Great Vibes', cursive; */
-    /* font-size: 32px; */
+    opacity: 0.8;
+    font-family: 'Cherry Swash', cursive
 }
 .container{
-    background-color: #0a0a0a;
+    background-color: #1A1F22;
+    /* display: flex; */
+    flex-wrap: wrap;
 }
+
 .name{
+    font-weight: 600;
+    font-family: 'Satisfy', cursive;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     text-decoration: underline;
 }
 .priv h2{
-    text-align: center;
-    font-size: 40px;
+    /* text-align: center; */
+    font-size: 30px;
     text-decoration: underline;
 }
 .priv p{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.num1{
+    font-size: 30px;
+}
+/* li {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ */
+ .fe-male{
+     display: flex;
+ }
+.male{
+    margin-left: 15rem;
+}
+.male h2{
+    font-size: 32px;
+}
+.male ul{
     font-size: 24px;
 }
+.female{
+    margin-left: 15rem;
+    /* margin-block-end: 70rem; */
+    /* float: right; */
+    /* align-content: flex-end; */
+}
+.female h2{
+    font-size: 32;
+}
+.female ul{
+    font-size: 24px;
+}
+li:hover{
+    color: chartreuse;
+}
+h4{
+    color: black;
+}
+label{
+    color: black;
+}
+label.label{
+    color: black;
+}
+div.card-body{
+    color: #7A7B80;
+}
+@media only screen and (min-width: 1200px) {
+    .your-akan-name :first-child{
+        color:black;
+        padding-top: 35px;
+        font-size: 24px;
+        font-weight: bolder;
+        background-color:#0077b6;
+        border: 2px solid whitesmoke;
+        width: 1000px;
+        height: 100px;
+        text-align: center;
+        text-shadow: lightgray;
+    }
+}
+
