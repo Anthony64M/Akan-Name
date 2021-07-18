@@ -21,7 +21,7 @@ function getAkanName(){
                     document.getElementById("message").innerHTML = `Hey ${myName}, You were born on a ${days[dayOfTheWeek]} so Your Akan Name is ${femaleAkanNames[dayOfTheWeek]}`;
                 }
                 break;
-            }    
+            }
             else {
                 document.getElementById("message").innerHTML = "<strong>Sorry But Gender is Required.</strong>";
             }
