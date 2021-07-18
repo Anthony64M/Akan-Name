@@ -13,6 +13,7 @@
 ### *HTML*
 ### *CSS*
 ### *BOOTSTRAP*
+### *JAVASCRIPT*
 ---
 ***
 # BDD
